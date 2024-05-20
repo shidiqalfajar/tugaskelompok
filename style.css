@@ -1,0 +1,394 @@
+body{
+   margin: 0px; /* menghilangkan batas pinggir halaman*/
+   
+}
+/* pembungkus header, menunav, */
+.container{
+	overflow: hidden; /* mengelola bagaimana konten yang melampaui batas elemen akan ditampilkan*/
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+}
+    /* bagian header*/
+    .header{
+        background: #686666;
+        padding: 10px;
+        padding-left: 25px; /* jarak antara tulisan dengan batas kiri halaman */
+        margin: 0px;
+    }
+            /* logo pada header */
+        .logoal{
+            width: 30px; 
+            height: auto;
+            padding: 10px;
+            float: left;
+        }
+        .judul{
+            margin-left: 50px;
+            padding: 0px;        
+        }
+            .judul h2 h6{
+                margin: 0px;
+                padding: 0px;
+            }
+
+        /* memberikan warna pada teks h2*/
+        .header h2{
+            font-family: Calibri;
+            color: aliceblue;
+            margin: 0px;
+        }
+        /* memberikan warna pada teks h6*/
+        .header h6{
+        font-family: Calibri;
+            color:#0f0f0f;
+            text-decoration: none;
+            margin: 0px;
+        }
+
+    /* bagian menu navigasi*/
+    .menu{
+        background-color: #2c3845;
+        height: 30px;
+        position: relative;
+        line-height: 30px; /* lebar background menunav*/
+        padding-right: 20px; /* jarak tombol login ke sisi kanan*/ 
+    }
+        .menu ul{
+            list-style: none; /* menghilangkan list */
+            margin: 0px; /* menghilangkan jarak atas bawah antara background header dan menunav*/
+        }
+        .menu ul li a{
+            float: left;
+            width: 70px;
+            font-family: Calibri;
+            color: #fff;
+            text-align: center;
+            text-decoration: none; /* menghilangkan garis link */ 
+        }
+        /* agar ketika disort warnanya berubah*/
+        .menu ul li a:hover{
+            background-color: #3d4e5e;
+            display: block;
+            color: #f5f5f5;
+        }
+
+        /*Bagian Tombol Login*/
+        .btnlogin{
+            /* bagian border tombol login*/
+            line-height: 20px; /*ukuran tombol*/
+            float: right; /* posisi tombol */
+            background-color: black; /*warna tombol*/
+            border-radius:20px; /*gaya tombol*/
+            margin: 5px; /* batas tombol login pada backgroun menunav*/
+
+            /* bagian teks tombol*/    
+            color:#fff; /*warna teks*/
+            font-family: calibri;
+            font-size:14px;
+            text-align: center; /* rataan teks login*/
+            text-decoration:none;
+            padding: 0 10px; /* padding teks login*/
+        }
+            /* agar warna berubah saat disort */
+            .btnlogin:hover{
+                background-color:#ffffff; /*warna background tombol*/
+                color: black;
+            }
+
+/* bagian tengah / konten */
+    .quotes{
+        float: left;
+        width: 30%;
+        font-family: calibri;
+        text-align: center;
+        background-color: #f5f5f5;
+    }
+        .quotes h3{
+            background-color: #118a7d;
+            line-height: 30px;
+            font-family: calibri;
+            text-align: center;
+            color: #f5f5f5;
+            margin: 0px;
+        }
+        .quotes img {
+            width: 100%;
+        }
+        .quotes h5{
+            margin: 0px;
+            padding: 5 0 0px;
+            text-align: center;
+        }
+        .quotes p{
+            height: 100%;
+            font-family: calibri;
+            padding: 0 10 20px;
+            text-align: left;
+        }
+
+        
+
+    .konten{
+        width: 70%;
+        float: left;
+    }
+        .konten img{
+            width: 100%;
+            padding: 0 0 0 20px;
+            margin: 0px;
+        }
+        .konten h3{
+            font-family: calibri;
+            text-align: center;
+            color:#95b75c;
+            padding: 20 0 0px;
+            margin: 0px;
+        }
+        .konten p{
+            font-family: calibri;
+            margin: 0px;
+            padding: 10px;
+        }
+
+        /* konten pada profil*/
+        .konten a{
+            text-decoration: none;
+            font-family: calibri;
+            color:#0f0f0f;
+        }
+        .konten a:hover{
+            color: #e34624;
+        }
+	
+	/* css untuk profil*/
+	.profil{
+		width: 100%;
+		background-color:  #118a7d;
+		}
+		.profil h3{
+			line-height: 30px;
+            font-family: calibri;
+            text-align: center;
+            color:#fff;     
+            margin: 0px;
+		}	
+		
+		.profil img{
+            width: 100%;
+            padding: 0px;
+            margin: 0px;
+        }
+		.profil h5{
+            font-family: calibri;
+            text-align: center;
+            color:#95b75c;
+            padding: 20 0 0px;
+            margin: 0px;
+        }
+        .profil ul{
+            list-style: none;
+            display: table;
+            text-align: left;
+            padding: 20px;
+            margin-left: 25%;
+			margin-bottom: 0px;
+			
+          }
+        .profil ul li {
+            display: table-row;
+			font-family: sans-serif;
+			color:black;
+          }
+        .profil ul li b {
+            display: table-cell;
+            padding-right: 1rem;	
+			color: #fff;
+          }
+          .profil ol li a {
+            font-family: Calibri;
+            text-decoration: none; /* menghilangkan garis link */ 
+          }
+          .profil ol li a:hover {
+            color: #118a7d;
+            font-family: Calibri;
+            text-decoration: none; /* menghilangkan garis link */ 
+          }
+
+
+          
+/* css untuk galery*/
+	.galery{
+		width: 100%;
+	}
+		/* css galery1*/
+		.galery1{
+			float: left;
+            width: 25%;
+            padding: 20px;
+            margin: 0px;
+        }
+		.galery1 img{
+            width: 100%;
+            padding: 0px;
+            margin: 0px;
+        }
+        .galery1 h5{
+            font-family: calibri;
+            text-align: center;
+            color:#95b75c;
+            padding: 0px;
+            margin: 0px;
+        }
+        .galery1 p{
+            font-family: calibri;
+            margin: 0px;
+            padding: 0px;
+        }
+		/* css galery2 */
+		.galery2{
+			float: left;
+            width: 25%;
+            padding: 20px;
+            margin: 0px;
+        }
+		.galery2 img{
+            width: 100%;
+            padding: 0px;
+            margin: 0px;
+        }
+        .galery2 h5{
+            font-family: calibri;
+            text-align: center;
+            color:#95b75c;
+            padding: 0px;
+            margin: 0px;
+        }
+        .galery2 p{
+            font-family: calibri;
+            margin: 0px;
+            padding: 0px;
+        }
+		/* css galery3 */
+		.galery3{
+			float: left;
+            width: 25%;
+            padding: 20px;
+            margin: 0px;
+        }
+		.galery3 img{
+            width: 100%;
+            padding: 0px;
+            margin: 0px;
+        }
+        .galery3 h5{
+            font-family: calibri;
+            text-align: center;
+            color:#95b75c;
+            padding: 0px;
+            margin: 0px;
+        }
+        .galery3 p{
+            font-family: calibri;
+            margin: 0px;
+            padding: 0px;
+        }
+		/* css galery4 */
+		.galery4{
+			float: left;
+            width: 25%;
+            padding: 20px;
+            margin: 0px;
+        }
+		.galery4 img{
+            width: 100%;
+            padding: 0px;
+            margin: 0px;
+        }
+        .galery4 h5{
+            font-family: calibri;
+            text-align: center;
+            color:#95b75c;
+            padding: 0px;
+            margin: 0px;
+        }
+        .galery4 p{
+            font-family: calibri;
+            margin: 0px;
+            padding: 0px;
+        }
+		
+/* bagian footer*/
+.footer{
+    clear: both; /* memisahkan dari bagian tengah / konten*/
+    width: 100%;
+    border: 0px solid #2d2d2d;
+    color: #fff;
+    background-color: #686666;
+    padding: 10px;
+    text-align: center;
+    margin: 0px;
+}
+    .footer img{
+        width: 50px;
+        height: auto;
+        /* menambahkan garis putih pada gambar*/
+        background-color: whitesmoke;
+        padding: 2px;
+        border-radius: 32px;
+    }
+    .footer h3{
+        font-family: calibri;
+        margin: 0px;
+    }
+    .footer p{
+        font-family: verdana;
+        margin: 0px;
+        font-size: 12px;
+        font-style: italic;
+    }
+
+        /*Menjadikan 2 Kolom Ketika akses pada Tablet*/
+        @media screen and (max-width: 1080px) {
+    
+            .container {
+                width: 100%;
+            }
+            .quotes {
+                width: auto
+                background-color: #edeeee;
+            }
+            .konten {
+                width: auto
+                float: left;
+            }
+        }
+/*Menjadikan 1 Kolom Ketika akses pada Ponsel*/
+        @media screen and (max-width: 780px) {
+    
+            .container{
+                width: auto;
+            }
+            .header{
+                width: auto;
+            }
+            .menu{
+                width: auto;
+            }
+            .quotes {
+                width: 100%;
+                float: none;
+            }
+            .quotes p{
+                height: auto;
+            }
+            .konten {
+                width: 100%;
+                float: none;
+            }
+            .konten img{
+                padding: 0px;
+                margin: 0px;
+            }
+
+        }
